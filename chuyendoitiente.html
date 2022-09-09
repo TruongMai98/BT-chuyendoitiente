@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <form>
+    <input type="text" id="amount">
+      <label>Amount</label><br>
+    <label> From currency</label>
+      <select id="form">
+          <option value="vnd">VND</option>
+          <option value="usd">USD</option>
+      </select><br>
+    <label>To currency</label>
+      <select id="to">
+          <option value="vnd">VND</option>
+          <option value="usd">USD</option>
+      </select><br>
+    <button type="button" onclick="convert()">Convert</button>
+      <div id="result"></div>
+
+    <script src="doitiente.js"></script>
+  </form>
+</body>
+</html>
